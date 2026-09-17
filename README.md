@@ -21,11 +21,14 @@ The programs are implemented in C and executed in Ubuntu.
 ## Compilation
 
 ### Single Threading
-```bash
-gcc singp.c -o singp
-./singp
+
+    gcc singp.c -o singp
+    ./singp
 
 ### Multithreading
-```bash
-gcc multip.c -o multip
-./multip
+
+    gcc multip.c -o multip
+    ./multip
+
+## Output
+The output screenshots demonstrate the execution of threads in both approaches.
